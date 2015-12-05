@@ -2,6 +2,18 @@
 Changelog for package moveit_simple_grasps
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.3.0 (2015-12-05)
+------------------
+* Z Axis implemented
+* Fixed API changes in moveit_visual_tools
+* Adding grasp configurations for Romeo, Nao and Pepper
+* Update README.md
+* Fix install space
+* New setRobotStatePreGrasp(), setRobotStateGrasp(), and setRobotState() functions for opening and closing EE
+* Fixed test launch
+* Added new test functions
+* Contributors: Dave Coleman, nlyubova, rheidrich
+
 1.2.1 (2014-10-27)
 ------------------
 * Refactored for new moveit_visual_tools API

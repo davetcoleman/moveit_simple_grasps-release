@@ -1,0 +1,12 @@
+Source: ros-indigo-moveit-simple-grasps
+Section: misc
+Priority: extra
+Maintainer: Dave Coleman <davetcoleman@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-actionlib, ros-indigo-actionlib-msgs, ros-indigo-catkin, ros-indigo-cmake-modules, ros-indigo-eigen-conversions, ros-indigo-geometry-msgs, ros-indigo-message-generation, ros-indigo-moveit-core, ros-indigo-moveit-msgs, ros-indigo-moveit-ros-planning, ros-indigo-moveit-ros-planning-interface, ros-indigo-moveit-visual-tools, ros-indigo-roscpp, ros-indigo-std-msgs, ros-indigo-tf, ros-indigo-tf-conversions, ros-indigo-trajectory-msgs
+Homepage: https://github.com/davetcoleman/moveit_simple_grasps/
+Standards-Version: 3.9.2
+
+Package: ros-indigo-moveit-simple-grasps
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-actionlib-msgs, ros-indigo-geometry-msgs, ros-indigo-message-runtime, ros-indigo-moveit-msgs, ros-indigo-moveit-visual-tools, ros-indigo-std-msgs, ros-indigo-trajectory-msgs
+Description: A basic grasp generator for simple objects such as blocks or cylinders for use with the MoveIt! pick and place pipeline. Does not consider friction cones or other dynamics.
